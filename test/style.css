@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+/* header */
+
+.main-top {
+    padding: 20px;
+    box-shadow: 0px 5px black;
+    z-index: 100;
+}
+.header {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 5px;
+
+    background-color: #60f879;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-item{
+    margin-left: 8px;
+    padding: 10px;
+    background-color: rgb(253, 133, 103);
+    white-space: nowrap;
+    border-radius: 5px;
+}
+.logo-item:hover{
+    background-color: rgb(143, 63, 16);
+    color: rgb(255, 255, 255);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+#login {
+    background-image: linear-gradient(to right, rgb(255, 24, 24) , rgb(255, 189, 9));
+}
+.profile-item {
+    margin-left: 8px;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    border-radius: 5px;
+}
+.profile-item:hover{
+    background-color: rgb(155, 58, 28);
+    color: rgb(255, 255, 255);
+    
+}
+
+
+/* intro */
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+    background-color: rgb(247, 177, 149);
+}
+
+.content-box {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    border: 1px solid red;
+    background-color: white;
+}
+
+
+/* section */
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+.section-item1{
+    font: bold;
+}
+
+.section-item2{
+    font-size: 20px;
+}
+
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    height: 50px;
+    background-color: #73eca1;
+}
+.contact-item{
+    margin-left: 20px;
+    font-size: 20px;
+    font: bold;
+}
